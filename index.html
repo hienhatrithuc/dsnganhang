@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Ngân Hàng</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Danh Sách 61 Địa Chỉ Ngân Hàng Nhận Công Văn</h2>
+        <p>Cập nhật ngày 10/04/2023</p>
+        <table border="1" class="dataframe table table-bordered table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>STT</th>
+      <th>Đơn vị</th>
+      <th>Viết tắt</th>
+      <th>AM</th>
+      <th>Người nhận - chức danh</th>
+      <th>Địa chỉ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Ngân hàng TMCP An Bình</td>
+      <td>ABB</td>
+      <td>Lam</td>
+      <td>Ông Phạm Hồng Tuân - Giám đốc Trung tâm thẻ</td>
+      <td>Tầng 3, Tòa nhà Peakview, 36 Hoàng Cầu, Quận Đống Đa, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ngân hàng TMCP Á Châu</td>
+      <td>ACB</td>
+      <td>Hà Phương</td>
+      <td>Bà Lý Kim Trang Đài - GĐ Phòng Vận hành và dịch vụ KH NHS</td>
+      <td>ACB Tower, 444A-446 CMT8, P.11, Q.3, HCM</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Trung tâm Thẻ - Ngân hàng Nông Nghiệp và Phát Triển Nông Thôn Việt Nam</td>
+      <td>AGRIBANK</td>
+      <td>Nga</td>
+      <td>Chị Phan Thanh Hà - Quyền Giám đốc phụ trách Trung tâm thẻ</td>
+      <td>18 Trần Hữu Dực, Mỹ Đình, Từ Liêm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ngân hàng Nông Nghiệp và Phát Triển Nông Thôn Việt Nam</td>
+      <td>AGRIBANK</td>
+      <td>Nga</td>
+      <td>Ông Đồng Đức Giang - Giám đốc Trung tâm thanh toán</td>
+      <td>Tầng 9, 18 Trần Hữu Dực, Mỹ Đình, Từ Liêm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ngân hàng TMCP Bắc Á</td>
+      <td>BAB</td>
+      <td>Quân</td>
+      <td>Bà Vũ Thanh Thủy - Phó Giám đốc Khối bán lẻ</td>
+      <td>Tầng 3, Tòa nhà BACABANK, số 9 Đào Duy Anh, Đống Đa, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Ngân hàng TMCP Đầu Tư và Phát Triển Việt Nam</td>
+      <td>BIDV</td>
+      <td>K Trang</td>
+      <td>Bà Nguyễn Thị Ngọc Tú - Phó Giám đốc Ban Phát triển Ngân hàng Bán Lẻ</td>
+      <td>35 Hàng Vôi, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Ngân hàng TMCP Bảo Việt</td>
+      <td>BVB</td>
+      <td>Phương Trang</td>
+      <td>Ông Ngô Đức Anh - Giám đốc Trung tâm Thẻ và NHĐT</td>
+      <td>Tầng 4, Số 7 Lý Thường Kiệt, Hoàn Kiếm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Ngân hàng TM TNHH MTV Xây Dựng Việt Nam</td>
+      <td>CBB</td>
+      <td>Kim Phượng</td>
+      <td>Ông Đàm Minh Đức - Tổng Giám Đốc</td>
+      <td>Lầu 8, Số 10 Lý Tự Trọng, Phường Bến Nghé, Quận 1, TPHCM</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Ngân hàng TNHH Một thành viên CIMB Việt Nam</td>
+      <td>CIMB</td>
+      <td>Hồ Tuấn</td>
+      <td>Ông Huỳnh Thế Bảo - Trưởng bộ phận Ngân hàng số</td>
+      <td>Viettel Tower, Block A2, Level 5, 285 Cach Mang Thang Tam, Ward 12, District 10, HCM</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Ngân hàng Citibank N.A, chi nhánh Hà Nội</td>
+      <td>CITIBANK HN</td>
+      <td>Dương</td>
+      <td>Bà Lại Minh Thúy - Giám đốc Khối phát triển sản phẩm Kinh doanh Luồng tiền &amp; thanh toán Quốc tế</td>
+      <td>Tòa nhà Sunwah, 115 Nguyễn Huệ, phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Ngân hàng Hợp tác xã Việt Nam</td>
+      <td>COOPBANK</td>
+      <td>Phương Trang</td>
+      <td>Ông Trương Tú Anh - Giám đốc Trung tâm Thẻ và dịch vụ Ngân hàng số</td>
+      <td>15T Nguyễn Thị Định - Trung Hòa - Cầu Giấy - Hà Nội</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Ngân hàng TMCP Đông Á</td>
+      <td>DAB</td>
+      <td>Long</td>
+      <td>Ông Nguyễn Đại Bàng – GĐ Trung Tâm Thẻ</td>
+      <td>154 Nguyễn Tất Thành, P.13, Q.4, Tp.HCM</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Ngân hàng DBS Bank Ltd., - CN TP Hồ Chí Minh</td>
+      <td>DBS</td>
+      <td>Long</td>
+      <td>Ông Võ Đình Huy - Giám đốc điều hành</td>
+      <td>Tầng 11, Saigon Centre, 65 Lê Lợi, P.Bến Nghé, Q.1, Tp.HCM</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam</td>
+      <td>EIB</td>
+      <td>Long</td>
+      <td>Ông La Kim Vị - GĐ PTKD và Nghiên cứu PTSP - TTT</td>
+      <td>Tầng 4, 65A đường 3/2, Quận 10. TP.HCM - ĐT: 0932698437</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Ngân hàng Thương Mại TNHH MTV Dầu khí Toàn cầu</td>
+      <td>GPB</td>
+      <td>Lam</td>
+      <td>Ông Hồ Hữu Minh - Tổng Giám đốc</td>
+      <td>Tầng 19, 109 Trần Hưng Đạo, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh</td>
+      <td>HDB</td>
+      <td>Long</td>
+      <td>Bà Trần Thu Hiền  - P. Ngân Hàng Điện Tử</td>
+      <td>Lầu 4, 156 Trần Quang Khải, P.Tân Định, Q.1, TP.HCM; SĐT: 0906.886.120</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Ngân hàng TNHH MTV Hong Leong Việt Nam</td>
+      <td>HLB</td>
+      <td>Kim Phượng</td>
+      <td>Bà Khưu Thị Ngọc Phượng -  Cards Operations Assistant Manager</td>
+      <td>Tầng 1, Tòa nhà Centec Tower, 72-74 Nguyễn Thị Minh Khai, Phường Võ Thị Sáu, Quận 3, TPHCM</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Ngân hàng TNHH MTV HSBC Việt Nam</td>
+      <td>HSBC</td>
+      <td>Hà Phương</td>
+      <td>Bà Phạm Hồng Hạnh - VNM Product Head</td>
+      <td>The Metropolitan, 235, Dong Khoi street, District 1, HCMC</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Ngân hàng Industrial Bank of Korea - Chi nhánh TP. Hồ Chí Minh</td>
+      <td>IBK HCM</td>
+      <td>Kim Phượng</td>
+      <td>Trần Lê Minh Tâm - Legal &amp; Compliance Dept.</td>
+      <td>Diamond Plaza - phòng 604, lầu 6, 34 Lê Duẩn, Bến Nghé, Quận 1, HCM</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Ngân hàng Industrial Bank of Korea - Chi nhánh Hà Nội</td>
+      <td>IBK HN</td>
+      <td>Kim Phượng</td>
+      <td>Ông Quách Phú Thái - GĐ Pháp chế</td>
+      <td>P.1209,T12 Keangnam Hanoi Landmark Tower, Xã Mễ Trì, Huyện Từ Liêm, Thành phố Hà Nội</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Ngân hàng TNHH Indovina</td>
+      <td>IVB</td>
+      <td>Kim Phượng</td>
+      <td>Ông Lê Hữu Dũng - Head,Card &amp; New Banking Channel Dept</td>
+      <td>97A Nguyễn Văn Trỗi, phường 12,  Quận Phú Nhuận, Tp. HCM</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Ngân hàng Kookmin - Chi nhánh Hồ Chí Minh</td>
+      <td>KB HCM</td>
+      <td>Dũng</td>
+      <td>Ông Huỳnh Ngọc Thu Duy</td>
+      <td>Lầu 3, tòa MPlaza Saigon, số 39 đường Lê Duẩn, P. Bến Nghé, Quận 1, HCM</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Ngân hàng Kookmin - Chi nhánh Hà Nội</td>
+      <td>KB HN</td>
+      <td>Dũng</td>
+      <td>Ông Lê Xuân Thành</td>
+      <td>Tầng 25, Keangnam Landmark, E6 Phạm Hùng, Từ Liêm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Ngân hàng Đại chúng TNHH KASIKORNBANK – Chi nhánh TP. Hồ Chí Minh</td>
+      <td>KBANK</td>
+      <td>Dương</td>
+      <td>Bà Nguyễn Phương Nhi - Transactional Banking Business Operation</td>
+      <td>Tầng 20 Sun Wah Tower, 115 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Ngân hàng KEB Hana - Chi nhánh Thành phố Hồ Chí Minh</td>
+      <td>KEBHANAHCM</td>
+      <td>Dương</td>
+      <td>Bà Trương Thị Trí - Phòng Dịch vụ huy động và thanh toán</td>
+      <td>93 Nguyễn Du, Bến Nghé, Quận 1, TPHCM</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Ngân hàng KEB Hana - Chi nhánh Hà Nội</td>
+      <td>KEBHANAHN</td>
+      <td>Dương</td>
+      <td>Bà Trần Thị Thanh Trà - Phó Tổng Giám đốc</td>
+      <td>Tầng 14 TTTM Daeha, 360 Kim Mã, Ba Đình Hà Nội</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Ngân hàng TMCP Kiên Long</td>
+      <td>KLB</td>
+      <td>Long</td>
+      <td>Bà Lê Thị Thu Thảo - Giám đốc Trung tâm thẻ</td>
+      <td>98-108 Cách Mạng Tháng Tám, P.7, Quận 3, TP.HCM</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Ngân hàng TMCP Bưu điện Liên Việt</td>
+      <td>LPB</td>
+      <td>Lam</td>
+      <td>Ông Lương Quốc Tâm - Giám đốc khối Ngân hàng số</td>
+      <td>Tầng 3, Tòa nhà LienVietPostBank, 210 Trần Quang Khải, Hoàn Kiếm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Ngân hàng TMCP Quân đội</td>
+      <td>MB</td>
+      <td>Nga</td>
+      <td>Ông Vũ Thành Trung - Thành viên Ban điều hành, Giám đốc Khối Ngân hàng số</td>
+      <td>Tầng 23, Tòa nhà MB, số 63 Lê Văn Lương, quận Cầu Giấy, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Ngân hàng TMCP Hàng Hải Việt Nam</td>
+      <td>MSB</td>
+      <td>Việt Hương</td>
+      <td>Ông Nguyễn Hoàng Linh - Tổng Giám đốc</td>
+      <td>Tầng 30 Tòa nhà TNR, 54A Nguyễn Chí Thanh, Đống Đa, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Ngân hàng TMCP Nam Á</td>
+      <td>NAB</td>
+      <td>Huyền Trang</td>
+      <td>Ông Nguyễn Quang Thông - PGĐ Khối KHCN</td>
+      <td>201-203 CMT8, Phường 4, Quận 3, HCM</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Ngân hàng TMCP Nam Á</td>
+      <td>NAB</td>
+      <td>Huyền Trang</td>
+      <td>Bà Lê Lưu Diệu Thảo - Giám đốc Trung tâm thẻ</td>
+      <td>201-203 CMT8, Phường 4, Quận 3, HCM</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Ngân hàng TMCP Quốc Dân</td>
+      <td>NCB</td>
+      <td>Hồ Tuấn</td>
+      <td>Bà Trần Thu Trang - Trưởng bộ phận Ngân hàng số</td>
+      <td>28C - 28D Bà Triệu, Hàng Bài, Hoàn Kiếm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Ngân hàng Nonghyup - Chi nhánh Hà Nội</td>
+      <td>NHB</td>
+      <td>Dương</td>
+      <td>Ông Park Chang O - Tổng Giám đốc chi nhánh Hà Nội</td>
+      <td>Tầng 14, tòa nhà Lotte Center Hà Nội, 54 Liễu Giai, P. Cống Vị, Q. Ba Đình, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Ngân hàng TMCP Phương Đông</td>
+      <td>OCB</td>
+      <td>Long</td>
+      <td>Bà Lưu Hồng Ngọc - Giám đốc Trung tâm thẻ</td>
+      <td>Lầu 1, số 14-16 Trần Não, P.An Phú, Quận 2, TP.HCM</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Ngân hàng Thương Mại TNHH MTV Đại Dương</td>
+      <td>OCEANBANK</td>
+      <td>Quân</td>
+      <td>Ông Dương Thái Sơn - Giám đốc TT Ngân hàng điện tử - Khối Ngân hàng bán lẻ</td>
+      <td>Tầng 10, nhà văn phòng DEAHA, số 360 Kim Mã, Ngọc Khánh, Ba Đình, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Ngân hàng TNHH MTV Public Bank Việt Nam</td>
+      <td>PBVN</td>
+      <td>Hồ Tuấn</td>
+      <td>Bà Phan Bích Ngọc - Phó phòng Dịch vụ Thẻ</td>
+      <td>Tầng 10, tòa nhà Tung Shing Square, số 2 Ngô Quyền, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Ngân hàng TMCP Xăng Dầu Petrolimex</td>
+      <td>PGB</td>
+      <td>Lam</td>
+      <td>Ông Phạm Chí Kiên - Phó giám đốc Khối Dịch vụ Ngân hàng bán lẻ</td>
+      <td>Tầng 23, Tòa nhà Mipec, 229 Tây Sơn, Q.Đống Đa,Hà Nội,Việt Nam</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Ngân hàng TMCP Đại Chúng Việt Nam</td>
+      <td>PVCOMBANK</td>
+      <td>Việt Hương</td>
+      <td>Bà Nguyễn Thúy Hạnh - Giám đốc khối Khách hàng cá nhân</td>
+      <td>Số 22 Ngô Quyền, Quận Hoàn Kiếm, Hà Nội.</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Ngân hàng TMCP Sài Gòn Thương Tín</td>
+      <td>SACOMBANK</td>
+      <td>Huyền Trang</td>
+      <td>Ông Chu Thanh Lịch - Trưởng phòng  Vận hành - Trung tâm phát triển ứng dụng</td>
+      <td>266 – 268 Nam Kỳ Khởi Nghĩa – P.8 - Quận 3 – TP Hồ Chí Minh</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Ngân hàng TMCP Sài Gòn Công Thương</td>
+      <td>SAIGONBANK</td>
+      <td>Huyền Trang</td>
+      <td>Ông Lê Công Thành - Giám đốc Trung tâm kinh doanh Thẻ</td>
+      <td>38 - 40 Nguyễn Thái Bình, Quận 1, Tp. HCM</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Ngân hàng TMCP Sài Gòn</td>
+      <td>SCB</td>
+      <td>Long</td>
+      <td>Ông Trần Xuân Anh Duy -  GĐ Quản lý kỹ thuật</td>
+      <td>927 Trần Hưng Đạo, P.1, Q.5, Tp.HCM. ĐT: 0938590645</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Ngân hàng TNHH MTV Standard Chartered Việt Nam</td>
+      <td>SCVN</td>
+      <td>Hà Phương</td>
+      <td>Bà Nguyễn Ánh Viễn Phương - General Manager, Priority - Deposits &amp; Distributions</td>
+      <td>10th Floor, Saigon Trade Center, 37 Ton Duc Thang ,Ho Chi Minh</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Ngân hàng TNHH MTV Standard Chartered Việt Nam</td>
+      <td>SCVN</td>
+      <td>Hà Phương</td>
+      <td>Ông Nguyễn Tân Đa - Head of Cash Product, Transaction Banking Vietnam</td>
+      <td>10th Floor, Saigon Trade Center, 37 Ton Duc Thang ,Ho Chi Minh</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Ngân hàng TMCP Đông Nam Á</td>
+      <td>SEABANK</td>
+      <td>Hồ Tuấn</td>
+      <td>Bà Trần Thu Hương - Trung tâm Vận hành thẻ</td>
+      <td>25 Trần Hưng Đạo, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Ngân hàng TMCP Sài Gòn - Hà Nội</td>
+      <td>SHB</td>
+      <td>Hồ Tuấn</td>
+      <td>Bà Bùi Thị Thúy Hằng - Product Owner -  Khối Ngân hàng số</td>
+      <td>77 Trần Hưng Đạo, Hoàn Kiếm, HN</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Ngân hàng TNHH MTV Shinhan Việt Nam</td>
+      <td>SVB</td>
+      <td>Hà Phương</td>
+      <td>Bà Nguyễn Thị Hải - Giám đốc phòng Ngân hàng số Sol</td>
+      <td>Lầu 3, Tòa nhà Empress, 138-142 Hai Bà Trưng, Phường Đakao, Quận 1, Tp. HCM</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Ngân hàng TMCP Kỹ thương Việt Nam</td>
+      <td>TCB</td>
+      <td>K Trang</td>
+      <td>Ông Đặng Công Hoàn - Phó Giám đốc Khối Ngân hàng bán lẻ</td>
+      <td>11th Floor - Techcombank Tower, 191 Ba Trieu Str., Hai Ba Trung District, Ha Noi, Vietnam</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Ngân hàng TMCP Tiên Phong</td>
+      <td>TPB</td>
+      <td>Hồ Tuấn</td>
+      <td>Ông Nguyễn Dũng - PGĐ Trung tâm Digital Banking</td>
+      <td>Tầng 1, Ruby Plaza, 44 Lê Ngọc Hân, Hai Bà Trưng, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Ngân hàng TNHH MTV United Overseas Bank Việt Nam</td>
+      <td>UOB</td>
+      <td>Huyền Trang</td>
+      <td>Bà Nguyễn Tú Lan -  Giám đốc Quản lý dịch vụ khách hàng</td>
+      <td>Tầng 1 khách sạn Pan Pacific, số 1 đường Thanh Niên, quận Ba Đình, Hà Nội ĐT: 0903225542</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Ngân hàng TMCP Việt Á</td>
+      <td>VAB</td>
+      <td>Lam</td>
+      <td>Bà Phan Hồng Thu - Phó Giám đốc Trung tâm thẻ và Ngân hàng số</td>
+      <td>Tầng 5, Toàn nhà Samsora, 105 Chu Văn An, Phường Yết Kiêu, Quận Hà Đông, TP Hà Nội</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>Ngân hàng Chính sách Xã hội</td>
+      <td>VBSP</td>
+      <td>Dương</td>
+      <td>Ông Dương Văn Chữ - Trưởng Phòng phát triển phần mềm ứng dụng - Trung tâm Công nghệ thông tin</td>
+      <td>169 Linh Đường, phường Hoàng Liệt, Hoàng Mai, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>Ngân hàng TMCP Ngoại thương Việt Nam</td>
+      <td>VCB</td>
+      <td>K Trang</td>
+      <td>Bà Bùi Lê Thủy Ninh</td>
+      <td>Tầng 13 tòa nhà VCB 198 Trần Quang Khải, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Phòng Chính sách &amp;Quản lý hệ thống thanh toán -Trung tâm thanh toán</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>Ngân hàng TMCP Bản Việt</td>
+      <td>VCCB</td>
+      <td>Huyền Trang</td>
+      <td>Ông Đỗ Thành Nam - Phó Giám đốc Trung tâm NHS</td>
+      <td>412 Nguyễn Thị Minh Khai, Quận 3, Tp. HCM</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>Ngân hàng TMCP Quốc tế Việt Nam</td>
+      <td>VIB</td>
+      <td>Hồ Tuấn</td>
+      <td>Bà Phạm Thu Hà - Giám đốc Trung tâm chuyển đổi số</td>
+      <td>Tầng 7, Tòa nhà Corner Stone, 16 Phan Chu Trinh, Hoàn Kiếm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>Ngân hàng TMCP Việt Nam Thương Tín</td>
+      <td>VIETBANK</td>
+      <td>Kim Phượng</td>
+      <td>Ông Nguyễn Hữu Trung - Quyền Tổng Giám đốc</td>
+      <td>62A Cách Mạng Tháng 8, phường 6, Quận 3, Tp Hồ Chí Minh</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>Ngân hàng TMCP Công thương Việt Nam</td>
+      <td>VIETINBANK</td>
+      <td>Nga</td>
+      <td>Ông Trần Hoài Nam - Phó Giám đốc Khối Khách hàng doanh nghiệp - Giám đốc Trung tâm Phát triển Giải pháp Tài chính khách hàng</td>
+      <td>Tầng 1, Tòa nhà Tổng công ty Giấy, 37 Ngô Quyền, Hoàn Kiếm, Hà Nội (đi cổng Tổng Công ty Giấy)</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>Ngân hàng TMCP Việt Nam Thịnh Vượng</td>
+      <td>VPB</td>
+      <td>Dũng</td>
+      <td>Ông Phạm Long Giang - Giám đốc TT Dịch vụ Ngân hàng số - Khối KHCN</td>
+      <td>Tầng 23, VPBANK Tower, 89 Láng Hạ, Đống Đa, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>Ngân hàng Liên doanh Việt - Nga</td>
+      <td>VRB</td>
+      <td>Dương</td>
+      <td>Chị Trương Thị Hương Giang - Phó Giám đốc Trung tâm thẻ</td>
+      <td>Trung tâm thẻ- Tầng 3- Tòa nhà số 75 Trần Hưng Đạo, Phường Trần Hưng Đạo, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam.</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Ngân hàng TNHH MTV Woori Việt Nam</td>
+      <td>WVN</td>
+      <td>Dương</td>
+      <td>Chị Kiều Thị Châm - Digital Planning Division</td>
+      <td>Tầng 33, Keangnam Landmark 72, E6 Phạm Hùng, Từ Liêm, Hà Nội</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Ngân hàng số Umee</td>
+      <td>Umee</td>
+      <td>Long</td>
+      <td>Anh Mai Công Đản - TBP Vận hành</td>
+      <td>Tầng 8, Tòa nhà Sunshine Center, 16 Phạm Hùng, Nam Từ Liêm, Hà Nội - ĐT: 0904727699</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>Công ty Tài chính TNHH Một Thành Viên Mirae Asset (Việt Nam)</td>
+      <td>MAFC</td>
+      <td>Hoài Nam</td>
+      <td>Phạm Nguyễn Tùng Nguyên - Head of Credit Card Projec</td>
+      <td>Tầng 5, Mekong Building, 91 Pasteur, Phường Bến Nghé,Quận 1, Thành phố Hồ Chí Minh, Việt Nam - ĐT: 0918230954</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Trưởng phòng Quan hệ ngân hàng</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>
